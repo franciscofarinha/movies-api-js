@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Search movies and tv shows</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header class="container-fluid">
+		<div class="row">
+			<div class="col-6 type active" id="movie">
+				Movies
+			</div>
+			<div class="col-6 type" id="series">
+				Tv Shows
+			</div>
+		</div>
+	</header>
+	<main class="container mt-2">
+		<form action="">
+			<fieldset class="form-group">
+				<label for="searchTerm">Search For a Movie or Tv Show</label>
+				<input type="text" class="form-control" id="searchTerm" placeholder="Enter a movie title">
+			</fieldset>
+			<button type="submit" class="btn btn-primary btn-block">Go</button>
+		</form>
+		<section class="mt-2 row" id="results">
+			
+		</section>
+	</main>
+	<script src="app.js" charset="utf-8"></script>
+	
+</body>
+</html>

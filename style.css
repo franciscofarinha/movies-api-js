@@ -1,0 +1,56 @@
+body {
+	background: #e3e3e3;
+}
+
+header {
+	background:black;
+}
+header .type {
+	padding:20px 0;
+	text-align:center;
+	color:white;
+	text-transform: uppercase;
+}
+
+header .type.active {
+	background:#e3e3e3;
+	color:black;
+}
+
+.navbar .type {
+	padding:20px 0;
+}
+.navbar .type:hover {
+	background:white;
+	cursor:pointer;
+	color:black;
+}
+
+.results-item {
+	padding:20px 0;
+}
+.results-item .card {
+	margin:10px;
+	border-radius:5px;
+}
+
+.results-item img {
+	margin:5%;
+	max-width:90%;
+}
+
+.results-item .card-title {
+	font-weight: bold;
+	/*background:black;*/
+	font-size:14px;
+	color:white;
+	padding:5px 10px;
+}
+
+input.has-error {
+	border-color: red;
+	color:red;
+}
+input.has-error::placeholder {
+	color:red;
+}
